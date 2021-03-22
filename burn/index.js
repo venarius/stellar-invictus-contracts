@@ -6,7 +6,7 @@ const TOKEN_ABI = require('./abi/tryon.json')
 const IS_TESTNET = true
 
 const PROVIDER_URL = IS_TESTNET ? 'https://data-seed-prebsc-1-s1.binance.org:8545/' : 'https://bsc-dataseed.binance.org/'
-const CONTRACT_ADDRESS = IS_TESTNET ? '0xb32E710a1E507Ed4f9a01D76700027A2a493D9Fd' : '0x4401b7de9c55622fd132057526d8d975ce241114'
+const CONTRACT_ADDRESS = IS_TESTNET ? '0xb32E710a1E507Ed4f9a01D76700027A2a493D9Fd' : '0x050f65BEf6bd15De57462cf75d06BafEB2A59118'
 
 const client = new Web3(PROVIDER_URL)
 client.eth.accounts.wallet.add(process.env.KEY)
